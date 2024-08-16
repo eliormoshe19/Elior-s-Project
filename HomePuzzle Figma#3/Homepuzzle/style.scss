@@ -1,0 +1,371 @@
+$mobile: 600px;
+$tablet: 1024px;
+$desktop: 1440px;
+
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+}
+
+
+.backgrounds-colors {
+    background-color: #ebf4f8; 
+    padding: 20px;
+    border-radius: 10px; 
+     
+}
+
+.header {
+    background-color: white;
+}
+
+.background {
+    width: 1000px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    
+    img {
+        max-width: 300px;
+    }
+}
+
+
+
+   
+
+
+.menu_item {
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    padding: 50px; 
+    margin-top: 8vh;
+    background-color: white;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: space-around;
+        gap: 5vh;
+    }
+
+    li {
+        display: inline;
+    }
+
+    a {
+        font-size: large;
+        text-decoration: none;
+        color: #B1B1B1;
+    }
+
+    ul li a i {
+        margin-right: 8px;
+    }
+
+    a:hover {
+        color: #0000FF; 
+    }
+
+    .selected {
+        color: blue;
+    }
+}
+
+.header {
+    display: flex;
+    margin-left: 20vw;
+    margin-top: 12vh;   
+    justify-content: space-between; 
+    background-color: white;
+
+    h1 {
+        color: #343C6A;
+    }
+}
+   
+    .icons {
+        display: flex;
+        gap: 10px;
+        margin-right: 7vw;
+    }
+
+    .searchwindow {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 13vw;
+        height: 5vh;
+        background-color: #F5F7FA;
+        border-radius: 30px;
+        margin-top: 2vh;
+        margin-left: 35vw;
+        justify-content: space-between;
+
+        img {
+            margin-left: 2vw;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    h2 {
+        font-size: small;
+       margin-top: 1.5vh;
+       margin-right: 2.5vw;
+       color: #8BA3CB;
+       white-space: nowrap;
+    }
+
+    .stats_topic {
+        font-size: small;
+        display: flex;
+        margin-top: 5vh;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    
+     
+    }
+    
+    .stats_stat {
+    
+        display: flex;
+        justify-content: center;
+        width: 14vw;
+        height: 10vh;
+        background-color: #ffffff;
+        border-radius: 30px;
+        padding: 20px;
+    
+        p {
+            color: #8BA3CB;
+        }
+    
+         img {
+            display: flex;
+            max-width: 70%;
+            height: 70%;
+            width: 30%;
+            
+            margin-top: 1.7vh;
+            
+        }
+    
+    }
+
+    .stats_content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1vw;
+
+        h1 {
+            font-size: medium;
+            color:#718EBF
+        }
+
+        p {
+            font-size: x-large;
+            color: black;
+            font-weight: bold;
+            
+        }
+
+    }
+
+    .last_topic {
+        display: flex;
+        
+        .last_topic_title {
+            display: flex;
+            gap: 30px;
+            margin-left: 16vw;
+            margin-top: 30px;
+            color:#333B69;
+            font-weight: bold;
+        }
+
+        p1 {
+            font-size: x-large;
+        }
+
+        p2 {
+            margin-left: 300px;
+        
+        }
+
+        }
+        
+    
+        .last_card1 {
+            padding: 30px;
+            border-radius: 50px;
+            display: flex;
+            width: 43vw;
+            height: 26vh;
+            background-color: rgb(253, 253, 253);
+            margin-left: 300px; 
+            margin-top: 2vh;
+            gap: 20px;
+
+         
+
+            img {
+                width: 80px;
+                height: 80px;
+                
+            }
+        }
+
+        .last_smalltitles {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                color: #718EBF;
+            }
+            
+            
+
+            h1 {
+                font-size: large;
+            }
+
+        
+        }
+
+        .last {
+            display: flex;
+            justify-content: space-between;
+        }
+        .last_transactions_titles {
+            display: flex;
+            gap: 90px;
+            margin-top: 5vh;
+            color: #718EBF;
+            
+
+            p4 {
+                color: red;
+            }
+        }
+           
+        .last_card2 {
+            margin-top: 100px;
+            
+        }
+
+        .cards {
+            display: flex;
+            align-items: center;
+            margin-right: 7vw;
+        
+
+
+         .credit_cards {
+            
+            width: 450px;
+            height: 280px;
+            border-radius: 40px;
+            padding: 20px;
+            background: radial-gradient(circle, #2D60FF, #539BFF)
+         }  
+         
+         .credit_cards_content i {
+            color: white;
+            font-size: 60px;
+            margin-left: 18vw;
+            margin-top: 5vh;
+            
+         }
+
+
+         .line_three_card_content {
+            display: flex;
+            justify-content: center;
+            margin-top: 7vh;
+         }
+
+
+
+
+        }
+
+        .line_one_card_content, .line_two_card_content {
+            display: flex;
+            flex-direction: column;
+          margin-top: -7vh;
+
+            h1 {
+                color: rgba(255, 255, 255, 0.753);
+                font-size: small;
+            }
+            p {
+                color: white;
+            }
+        }
+
+        .line_two_card_content, .line_three_card_content {
+            display: flex;
+            color: white;
+   
+        }
+
+
+        .activity {
+            display: flex;
+            align-items: center;
+        }
+
+         .activity_title {
+            display: flex;
+            gap: 30px;
+            margin-left: 16vw;
+            margin-top: 30px;
+            color:#333B69;
+            font-weight: bold;
+         }
+      
+       .activity_card {
+        padding: 30px;
+        border-radius: 50px;
+        display: flex;
+        width: 43vw;
+        height: 30vh;
+        background-color: rgb(253, 253, 253);
+        margin-left: 300px; 
+        margin-top: 2vh;
+        gap: 20px;
+           
+       }
+        
+   
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+ 
+        
+
+
+    

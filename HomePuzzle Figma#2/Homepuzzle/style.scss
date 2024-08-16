@@ -1,0 +1,275 @@
+$mobile: 600px;
+$tablet: 1024px;
+$desktop: 1440px;
+
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+}
+
+
+.backgrounds-colors {
+    background-color: #ebf4f8; 
+    padding: 20px;
+    border-radius: 10px; 
+     
+}
+
+.header {
+    background-color: white;
+}
+
+.background {
+    width: 1000px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    
+    img {
+        max-width: 300px;
+    }
+}
+
+
+
+   
+
+
+.menu_item {
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    padding: 50px; 
+    margin-top: 8vh;
+    background-color: white;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: space-around;
+        gap: 5vh;
+    }
+
+    li {
+        display: inline;
+    }
+
+    a {
+        font-size: large;
+        text-decoration: none;
+        color: #B1B1B1;
+    }
+
+    ul li a i {
+        margin-right: 8px;
+    }
+
+    a:hover {
+        color: #0000FF; 
+    }
+
+    .selected {
+        color: blue;
+    }
+}
+
+
+
+
+.header {
+    display: flex;
+    margin-left: 20vw;
+    margin-top: 12vh;   
+    justify-content: space-between; 
+    background-color: white;
+
+    h1 {
+        color: #343C6A;
+    }
+}
+   
+    .icons {
+        display: flex;
+        gap: 10px;
+        margin-right: 7vw;
+    }
+
+    .searchwindow {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 13vw;
+        height: 5vh;
+        background-color: #F5F7FA;
+        border-radius: 30px;
+        margin-top: 2vh;
+        margin-left: 35vw;
+        justify-content: space-between;
+
+        img {
+            margin-left: 2vw;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    h2 {
+        font-size: small;
+       margin-top: 1.5vh;
+       margin-right: 2.5vw;
+       color: #8BA3CB;
+       white-space: nowrap;
+    }
+
+
+.stats_topic {
+    font-size: small;
+    display: flex;
+    margin-top: 5vh;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+
+ 
+}
+
+.stats_stat {
+    display: flex;
+    align-items: center;
+    width: 17vw;
+    height: 12vh;
+    background-color: #ffffff;
+    border-radius: 30px;
+
+    p {
+        color: #8BA3CB;
+    }
+
+     img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+}
+
+.last_topic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;  
+}
+
+.last_card {
+    border-radius: 30px;
+    justify-content: center;
+    
+    
+
+}
+    
+
+    .last_topic_title {
+        h1 {
+            font-size: x-large;
+            margin-right: 45vw;
+            margin-top: 5vh;
+        }
+
+    }
+
+    .last_card1, .last_card2, .last_card3, .last_card4, .last_card5, .last_card6 {
+        display: flex;
+        flex-direction: column;
+        width: 55vw;
+        height: 100px;
+        background-color: #ffffff;
+        border-radius: 30px;
+        
+
+        .card_content {
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        p {
+            font-size: medium;
+            color: #718EBF
+        }
+
+
+         img {
+            width: 100px;
+            height: 90px;
+           
+        }
+
+        .viewdetails_action {
+            width: 150px;
+            height: 35px;
+            border-radius: 30px;
+            border: 2px solid #718EBF ;
+            text-align: center;
+
+        }
+
+        .viewdetails_action h1 {
+            font-size: medium;
+            color: #718EBF;
+        }
+    }
+
+    .card_content {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        
+    }
+
+    .card_smalltitles {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-size: x-small;
+        white-space: nowrap;
+    }
+
+
+
+///דברים שהסתבכתי בהם במהלך הקוד?/// 
+/// הגדרת צבעי רקע כלליים. יש 2 צבעים שצריכים להיות, צבע כחול שנמצא בחלק הפנימי
+/// של הדף, וצבע חיצוני שהוא בעצם ה header 
+/// לא ידעתי איך להגדיר אותו, לכן נאלצתי לשחק עם כל מיני דברים.
+/// להכניס תמונות לתוך דיבים מסוימים. לדוגמא בכל דיב יש תמונה, כשהוספתי תמונה תמיד הטקסט ברח לי לצדדים ויצא מהדיב
+/// או שפשוט הוא לא נכנס כמו שצריך לדיב עצמו. וכשניסיתי לשחק עם הגדלים הוא תמיד שיחק לי גם עם הטקסטים שנמצאים בתוך.
+/// 
+/// 
+/// 
+/// 
+/// 
+/// לעשות רספונסיביות, להוסיף אייקונים ולעבוד על עיצוב תמונות בתוך הדיבים
+
+
+
+
+
+
+    
+
+
+
+
+ 
+        
+
+
+    
